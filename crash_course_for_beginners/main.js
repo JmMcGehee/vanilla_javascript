@@ -100,5 +100,45 @@ const todos = [
     }
 ]
 
-const todoJSON = JSON.stringify(todos);
-console.log(todoJSON);
+// const todoJSON = JSON.stringify(todos);
+// console.log(todoJSON);
+
+// ========== LOOPS ===============
+
+// for (let i = 0; i < todos.length; i++ ) {
+//     console.log(`To do: ${todos[i].text}`);
+// }
+
+//FOR OF
+// for (let todo of todos) {
+//     console.log(todo.text);
+// }
+
+// High order arrays
+
+// for each, map, filter
+
+todos.forEach(function(todo) {
+    console.log(todo.text);
+})
+
+const todoText = todos.map(function(todo) {
+    return todo.text
+})
+
+console.log(todoText);
+
+const todosCompleted = todos.filter(function(todo) {
+    return todo.completed === true;
+}).map(function (todo) {
+    return todo.text
+})
+
+console.log(todosCompleted);
+
+
+// let i =  0
+// while (i < 10) {
+//     console.log(`While loop number: ${i}`);
+//     i++;
+// }

@@ -82,23 +82,23 @@ const person = {
 
 //========ARRAYS and OBJECTS
 
-const todos = [
-    {
-        id: 1,
-        text: 'Take out trash',
-        completed: true
-    },
-    {
-        id: 2,
-        text: 'Meeting with boss',
-        completed: true
-    },
-    {
-        id: 3,
-        text: 'Dentist appt',
-        completed: false
-    }
-]
+// const todos = [
+//     {
+//         id: 1,
+//         text: 'Take out trash',
+//         completed: true
+//     },
+//     {
+//         id: 2,
+//         text: 'Meeting with boss',
+//         completed: true
+//     },
+//     {
+//         id: 3,
+//         text: 'Dentist appt',
+//         completed: false
+//     }
+// ]
 
 // const todoJSON = JSON.stringify(todos);
 // console.log(todoJSON);
@@ -118,23 +118,23 @@ const todos = [
 
 // for each, map, filter
 
-todos.forEach(function(todo) {
-    console.log(todo.text);
-})
+// todos.forEach(function(todo) {
+//     console.log(todo.text);
+// })
 
-const todoText = todos.map(function(todo) {
-    return todo.text
-})
+// const todoText = todos.map(function(todo) {
+//     return todo.text
+// })
 
-console.log(todoText);
+// console.log(todoText);
 
-const todosCompleted = todos.filter(function(todo) {
-    return todo.completed === true;
-}).map(function (todo) {
-    return todo.text
-})
+// const todosCompleted = todos.filter(function(todo) {
+//     return todo.completed === true;
+// }).map(function (todo) {
+//     return todo.text
+// })
 
-console.log(todosCompleted);
+// console.log(todosCompleted);
 
 
 // let i =  0
@@ -142,3 +142,5 @@ console.log(todosCompleted);
 //     console.log(`While loop number: ${i}`);
 //     i++;
 // }
+
+https://youtu.be/hdI2bqOjy3c?t=2807
